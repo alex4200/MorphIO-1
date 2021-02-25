@@ -8,7 +8,7 @@ from morphio import (CellFamily, Morphology, RawDataError, SectionType,
 from nose.tools import assert_equal, assert_raises, ok_
 from numpy.testing import assert_array_equal
 
-from .utils import assert_substring, captured_output
+from utils import assert_substring, captured_output
 
 _path = Path(os.path.dirname(os.path.abspath(__file__)), "data")
 H5_PATH = Path(_path, 'h5')

@@ -9,7 +9,7 @@ from nose import tools as nt
 from nose.tools import assert_equal, eq_, ok_
 from numpy.testing import assert_array_almost_equal, assert_array_equal
 
-from .utils import _test_asc_exception, assert_substring, captured_output, tmp_asc_file
+from utils import _test_asc_exception, assert_substring, captured_output, tmp_asc_file
 
 DATA_DIR = Path(__file__).parent / 'data'
 
