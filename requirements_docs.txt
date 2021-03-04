@@ -1,0 +1,4 @@
+sphinx>=2.0.0
+sphinx-bluebrain-theme
+sphinx-autorun
+cmake>=3.2.0
